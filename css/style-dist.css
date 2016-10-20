@@ -1,0 +1,37 @@
+*,
+*:after,
+*:before{
+	box-sizing: border-box;
+}
+
+header.app-title {
+	position: relative;
+	padding: 7.5px 7.5px 7.5px 15px;
+	color: #fff;
+	background-color: #000;
+	font-size: .75em;
+}
+
+header.app-title .commands{
+	position: relative;
+	float: right;
+	margin-top: -7.5px;
+	margin-right: -7.5px;
+	height: 100%;
+	font-size: 2em;
+}
+
+header.app-title .commands .button{
+	padding: .5px 10px;
+	border: none;
+	background-color: transparent;
+}
+
+header.app-title .commands .button:hover{
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+header.app-title .commands .button.close:hover{
+	background-color: #E81123;
+}
