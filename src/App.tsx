@@ -1,15 +1,16 @@
 import * as React from 'react';
 import './App.css';
-import Command from './Command';
+import Header from './Header';
 
-class App extends React.Component {
+interface IProps {
+  name?: string;
+}
+
+class App extends React.Component<IProps> {
   public render() {
     return (
       <div className="App">
-        <header className="App-header">
-          App Name
-          <Command />
-        </header>
+        <Header name={this.props.name || "Test"} />
       </div>
     );
   }
