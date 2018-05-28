@@ -1,0 +1,47 @@
+.Navigation {
+    background-color: var(--header);
+    color: black;
+    padding: 15px;
+}
+
+.Navigation h3 {
+    margin: 0;
+}
+
+.Navigation ul,
+.Navigation li {
+    grid-row-gap: 15px;
+}
+
+.Navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+}
+
+.Navigation li {
+    display: grid;
+}
+
+.Navigation input {
+    width: 100%;
+}
+
+.Navigation .emoji {
+    margin-right: 15px;
+}
+
+.Navigation a {
+    text-decoration: none;
+    padding: 7.5px 0;
+}
+
+.Navigation a:visited {
+    color: inherit;
+}
+
+.Navigation a:focus,
+.Navigation a:hover {
+    background-color: #ddd;
+}

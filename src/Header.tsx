@@ -3,7 +3,7 @@ import Command from './Command';
 import './Header.css';
 
 interface IProps {
-  name: string;
+  name?: string;
 }
 
 export default class Header extends React.Component<IProps> {

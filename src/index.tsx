@@ -4,13 +4,19 @@ import 'normalize.css';
 import 'progress-polyfill/progress-polyfill';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import App from "./App";
+import App from './App';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
-const appName = "Settings";
+const appName = 'Configurações';
 
-ReactDOM.render(<React.Fragment>{appName}</React.Fragment>, document.getElementById('App-titlebar'));
+ReactDOM.render(
+  <React.Fragment>{appName}</React.Fragment>,
+  document.getElementById('App-titlebar')
+);
 
-ReactDOM.render(<App name={appName} />, document.getElementById('root') as HTMLElement);
+ReactDOM.render(<App name={appName} />, document.getElementById(
+  'root'
+) as HTMLElement);
+
 registerServiceWorker();

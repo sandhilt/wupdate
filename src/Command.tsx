@@ -5,7 +5,9 @@ export default class Command extends React.Component {
   public render() {
     return (
       <span className="Command">
-        <button className="back">&larr;</button>
+        <button disabled={true} className="back">
+          &larr;
+        </button>
         {this.props.children}
         <button className="minimize">&minus;</button>
         <button className="maximize">&#9633;</button>
