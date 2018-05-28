@@ -1,0 +1,43 @@
+{
+  "name": "windows-update",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "dialog-polyfill": "^0.4.9",
+    "moment": "^2.22.1",
+    "normalize.css": "^8.0.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts-ts": "2.16.0"
+  },
+  "napa": {
+    "progress-polyfill": "LeaVerou/HTML5-Progress-polyfill"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "install": "napa"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "@types/node": "^10.1.2",
+    "@types/react": "^16.3.14",
+    "@types/react-dom": "^16.0.5",
+    "napa": "^3.0.0",
+    "typescript": "^2.8.3"
+  },
+  "description": "This is a example from Windows Update from Microsft Design",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SandHilt/wupdate.git"
+  },
+  "author": "Bruno Ochotorena <hilt@outlook.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SandHilt/wupdate/issues"
+  },
+  "homepage": "https://github.com/SandHilt/wupdate#readme"
+}

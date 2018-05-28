@@ -1,7 +1,0 @@
-{
-  "name": "Microsoft Design",
-  "dependencies": {
-    "normalize-css": "~3.0.3",
-    "webcomponentsjs": "~0.7.15"
-  }
-}

@@ -1,0 +1,30 @@
+.App {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-areas: "head head" "nav main";
+    grid-template-columns: 200px 1fr;
+    grid-column-gap: 15px;
+    grid-template-rows: auto 1fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+.App > header {
+    grid-area: head;
+}
+
+.App > nav {
+    grid-area: nav;
+}
+
+.App > main {
+    grid-area: main;
+}
+
+.App .status small{
+    display: block;
+}
+
+.App .status button.check {
+    display: block;
+}
